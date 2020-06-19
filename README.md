@@ -1,24 +1,24 @@
 # Using GANs for airfoil optimization 
 
-1. cd NACA_4digitGenerator
-   sh run NACA_4digitGenerator.py
+1. cd NACA_4digitGenerator 
+   sh run NACA_4digitGenerator.py 
 
-   Generate NACA 4 digit airfoils - these are the airfoils for the simulations and 
-   computing the coefficient of lift. Code is in the directory CNS_EBoft_AirfoilOptimization
+   Generate NACA 4 digit airfoils - these are the airfoils for the simulations and  
+   computing the coefficient of lift. Code is in the directory CNS_EBoft_AirfoilOptimization 
 
-2. cd ComputeCL
-   python ComputeCL.py
-   python ComputeMaxCL.py
+2. cd ComputeCL 
+   python ComputeCL.py 
+   python ComputeMaxCL.py 
 
-   Get all the CL*txt files from the solver directory and compute CL, also the max CL
+   Get all the CL*txt files from the solver directory and compute CL, also the max CL 
 
-3. sh run_GAN_NACA_Airfoils.sh
-   From the NACA airfoils use the DCGAN to generate new airfoils
+3. sh run_GAN_NACA_Airfoils.sh 
+   From the NACA airfoils use the DCGAN to generate new airfoils 
 
-4. python CLLearning_NACA_Airfoils.py
+4. python CLLearning_NACA_Airfoils.py 
 
-   Train a neural network that learns f(shape) = CL for the NACA airfoils using simulation data.
-   Save the checkpoint file for this. This is the CLLearner.
+   Train a neural network that learns f(shape) = CL for the NACA airfoils using simulation data. 
+   Save the checkpoint file for this. This is the CLLearner. 
 
 4. sh run_GenerateNewAirfoils.sh
 
