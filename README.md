@@ -1,7 +1,7 @@
 # Using GANs for airfoil optimization 
 
-1. cd NACA_4digitGenerator 
-   sh run NACA_4digitGenerator.py 
+1. cd NACA_4digitGenerator    
+   sh run NACA_4digitGenerator.py    
 
    Generate NACA 4 digit airfoils - these are the airfoils for the simulations and  
    computing the coefficient of lift. Code is in the directory CNS_EBoft_AirfoilOptimization 
