@@ -1,4 +1,4 @@
-# Using GANs for airfoil optimization 
+# Using DCGANs for airfoil optimization 
 
 1. cd NACA_4digitGenerator    
    sh run NACA_4digitGenerator.py    
