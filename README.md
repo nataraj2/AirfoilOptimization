@@ -21,9 +21,9 @@
    ```
    From the NACA airfoils use the DCGAN to generate new airfoils    
 
-4.``` 
+4. ``` 
    python CLLearning_NACA_Airfoils.py
-  ```
+   ```
    Train a neural network that learns f(shape) = CL for the NACA airfoils using simulation data.    
    Save the checkpoint file for this. This is the CLLearner.    
 
