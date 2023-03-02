@@ -6,7 +6,7 @@ high-resolution training data from Computational Fluid Dynamics simulations of a
 to steady-state flow fields for a Mach 0.65 flow over 900 NACA 4-digit airfoils which have polynomial representations for the shape. Two different   
 neural networks are trained  
  
-(a) The first network mapped the smooth airfoil shape to the coefficient of lift using the simulation training data
+(a) The first network mapped the smooth airfoil shape to the coefficient of lift using the simulation training data  
 (b) The second network -- a DCGAN which takes a random vector as the input and outputs a smooth airfoil (much similar to how Deepfake works to create new faces)
 
 The two neural networks are then combined to get a single network that maps the random vector to the coefficient of lift.
