@@ -2,7 +2,7 @@
 
 This repository contains the Python scripts required for the machine learning based shape optimization for two-dimensional airfoils 
 using Deep Convolutional Generative Adversarial Networks (DCGAN) to optmize the coefficient of lift. The training data consisted 
-to steady-state flow fields for a Mach 0.65 flow over 900 NACA airfoils which have polynomial representations for the shape. Two different   
+to steady-state flow fields for a Mach 0.65 flow over 900 NACA 4-digit airfoils which have polynomial representations for the shape. Two different   
 neural networks are trained  
  
 (a) A smooth airfoil shape is mapped to the coefficient of lift  
