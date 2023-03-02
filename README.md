@@ -11,7 +11,9 @@ neural networks are trained
 The two neural networks are then combined to get a single network that maps the random vector to the coefficient of lift.
 A steepest gradient descent methodology is utilized to perform the optimization. During 
 the iterations, at each step, the input random vector is updated, and passed through the trained generator network to obtain a 
-smooth airfoil, and that is passed through the network in (a) to obtain the coefficient of lift.
+smooth airfoil, and that is passed through the network in (a) to obtain the coefficient of lift.  
+
+The steps for the training and shape optimization procedure are below
 
 1. ```
    cd NACA_4digitGenerator    
