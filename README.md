@@ -6,7 +6,7 @@ to steady-state flow fields for a Mach 0.65 flow over 900 NACA airfoils which ha
 neural networks are trained  
  
 (a) A smooth airfoil shape is mapped to the coefficient of lift  
-(b) A DCAGN which takes a random vector as the input and outputs a smooth airfoil (much similar to how Deepfake works to create new faces)
+(b) A DCGAN which takes a random vector as the input and outputs a smooth airfoil (much similar to how Deepfake works to create new faces)
 
 The two neural networks are then combined to get a single network that maps the random vector to the coefficient of lift.
 A steepest gradient descent methodology is utilized to perform the optimization. During 
