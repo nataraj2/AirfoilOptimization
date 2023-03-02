@@ -1,7 +1,8 @@
 # Using DCGANs for airfoil shape optimization 
 
 This repository contains the Python scripts required for the machine learning based shape optimization for two-dimensional airfoils 
-using Deep Convolutional Generative Adversarial Networks (DCGAN) to optmize the coefficient of lift. The training data consisted 
+using Deep Convolutional Generative Adversarial Networks (DCGAN) to optmize the coefficient of lift. Note that this required 
+high-resolution training data from Computational Fluid Dynamics simulations of airfoils at high-speed flows. The training data consisted 
 to steady-state flow fields for a Mach 0.65 flow over 900 NACA 4-digit airfoils which have polynomial representations for the shape. Two different   
 neural networks are trained  
  
@@ -20,8 +21,7 @@ The steps for the training and shape optimization procedure are below
    sh run NACA_4digitGenerator.py
 	```
 
-   Generate NACA 4 digit airfoils - these are the airfoils for the simulations and  
-   computing the coefficient of lift. Code is in the directory CNS_EBoft_AirfoilOptimization 
+   Generate NACA 4 digit airfoils - these are the airfoils for the simulations and computing the coefficient of lift. Code is in the directory CNS_EBoft_AirfoilOptimization 
 
 2. ``` 
    cd ComputeCL    
@@ -39,8 +39,7 @@ The steps for the training and shape optimization procedure are below
 4. ``` 
    python CLLearning_NACA_Airfoils.py
    ```
-   Train a neural network that learns `f(shape) = CL` for the NACA airfoils using simulation data.    
-   Save the checkpoint file for this. This is the CLLearner.    
+   Train a neural network that learns `f(shape) = CL` for the NACA airfoils using simulation data. Save the checkpoint file for this. This is the CLLearner.    
 
 4. ```
    sh run_GenerateNewAirfoils.sh
@@ -51,15 +50,13 @@ The steps for the training and shape optimization procedure are below
    python CLPrediction_NewAirfoils.py
    ```
 
-   Now use the CLLearner to compute the predicted values of CL for the newly generated airfoils.   
-   Save the output into CL_new_airfoils.txt   
+   Now use the CLLearner to compute the predicted values of CL for the newly generated airfoils. Save the output into CL_new_airfoils.txt   
 
 6. ``` 
 	python CLNoiseLearing_New_Airfoils.py
    ```
 
-   Now train a neural network for f(noiseinput) = CL. Use this for optimization over the input   
-   random noise vefctor.   
+   Now train a neural network for f(noiseinput) = CL. Use this for optimization over the input random noise vefctor.   
 
 7. ``` 
 	python CLOptimization.py
@@ -72,9 +69,8 @@ The steps for the training and shape optimization procedure are below
    python CorrectedAirfoils.py
    ```
 
-   Manually close the airfoils. Choose the index of the airfoil from the optimization. Copy the corrected  airfoil data to the solver running directory   
-   and try. There might be errors of multiple cuts or the weird intersection at trailing edges. Do the simulation and compute CL. Code is in the directory   
-   CNS_EBoft_OptimalAirfoil   
+   Manually close the airfoils. Choose the index of the airfoil from the optimization. Copy the corrected  airfoil data to the solver running directory and try. 
+There might be errors of multiple cuts or the weird intersection at trailing edges. Do the simulation and compute CL. Code is in the directory CNS_EBoft_OptimalAirfoil  
 
 9. ```
    cd OptimalAirfoil    
