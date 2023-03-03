@@ -1,5 +1,7 @@
 # Using DCGAN for airfoil shape optimization 
 
+[Click here to download the presentation of this work](https://www.dropbox.com/scl/fi/cqm5mbc9h2pyxvbqnsq2i/DCGANAirfoilOptimization.pptx?dl=0&rlkey=h43ujaya819euvmjsdx56fk5z)
+
 This repository contains the Python scripts required for the machine learning based shape optimization for two-dimensional airfoils 
 using Deep Convolutional Generative Adversarial Networks (DCGAN) to optimize the coefficient of lift. Note that this required 
 high-resolution training data from Computational Fluid Dynamics simulations of airfoils at high-speed flows. The training data consisted 
