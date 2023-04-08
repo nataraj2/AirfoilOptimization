@@ -3,7 +3,7 @@
 ## The GAN learns to generate new airfoils from a random vector input
 
 
-<img src="Images/GAN2.gif?raw=true&v=100" alt="your_alternative_text" width="50%" height="50%" loop="true" autoplay="true">
+<img src="Images/GAN_GitHub.gif?raw=true&v=100" alt="your_alternative_text" width="50%" height="50%" loop="true" autoplay="true">
 
 
 [Click here to download the presentation of this work](https://www.dropbox.com/scl/fi/cqm5mbc9h2pyxvbqnsq2i/DCGANAirfoilOptimization.pptx?dl=0&rlkey=h43ujaya819euvmjsdx56fk5z)
