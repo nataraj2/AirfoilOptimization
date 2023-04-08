@@ -4,8 +4,6 @@
 <img src="Images/GAN_GitHub.gif?raw=true&v=100" alt="your_alternative_text" width="50%" height="50%" loop=infinite>
 
 
-1. cd NACA_4digitGenerator    
-   sh run NACA_4digitGenerator.py    
 [Click here to download the presentation of this work](https://www.dropbox.com/scl/fi/cqm5mbc9h2pyxvbqnsq2i/DCGANAirfoilOptimization.pptx?dl=0&rlkey=h43ujaya819euvmjsdx56fk5z)
 
 This repository contains the Python scripts required for the machine learning based shape optimization for two-dimensional airfoils 
