@@ -1,5 +1,8 @@
 # Using DCGANs for airfoil optimization 
 
+## The GAN learns to generate new airfoils from a random vector input
+![GAN Training](Images/GAN_GitHub.gif)
+
 1. cd NACA_4digitGenerator    
    sh run NACA_4digitGenerator.py    
 
