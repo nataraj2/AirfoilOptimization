@@ -1,12 +1,11 @@
 # Using DCGAN for airfoil shape optimization 
 
-## The GAN learns to generate new airfoils from a random vector input
+[Click here to download the presentation of this work](https://www.dropbox.com/scl/fi/cqm5mbc9h2pyxvbqnsq2i/DCGANAirfoilOptimization.pptx?dl=0&rlkey=h43ujaya819euvmjsdx56fk5z)
 
+## GAN training to generate airfoils from a random vector input
 
 <img src="Images/GAN_1.gif?raw=true&v=100" alt="your_alternative_text" width="50%" height="50%" loop="true" autoplay="true">
-
-
-[Click here to download the presentation of this work](https://www.dropbox.com/scl/fi/cqm5mbc9h2pyxvbqnsq2i/DCGANAirfoilOptimization.pptx?dl=0&rlkey=h43ujaya819euvmjsdx56fk5z)
+<img src="Images/OptimalAirfoil288.png" alt="your_alternative_text" width="50%" height="50%">
 
 This repository contains the Python scripts required for the machine learning based shape optimization for two-dimensional airfoils 
 using Deep Convolutional Generative Adversarial Networks (DCGAN) to optimize the coefficient of lift. Note that this required 
