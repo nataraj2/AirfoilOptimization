@@ -25,7 +25,7 @@ A steepest gradient descent methodology is utilized to perform the optimization.
 the iterations, at each step, the input random vector is updated, and passed through the trained generator network to obtain a 
 smooth airfoil, and that is passed through the network in (a) to obtain the coefficient of lift. 
 
-<img src="Images/NNCombination.png" alt="your_alternative_text" width="50%" height="50%">
+<img src="Images/NNCombination.png" alt="your_alternative_text" width="100%" height="100%">
 
 The steps for the training and shape optimization procedure are below
 
