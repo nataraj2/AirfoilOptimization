@@ -1,3 +1,10 @@
+<style>
+.math {
+    font-size: 1.5em;
+}
+</style>
+
+
 # Using DCGAN for airfoil shape optimization 
 
 [Click here to download the presentation of this work](https://www.dropbox.com/scl/fi/cqm5mbc9h2pyxvbqnsq2i/DCGANAirfoilOptimization.pptx?dl=0&rlkey=h43ujaya819euvmjsdx56fk5z)
