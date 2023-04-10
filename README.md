@@ -1,6 +1,6 @@
 <style>
 .math {
-    font-size: 1.5em;
+    font-size: 4.5em;
 }
 </style>
 
