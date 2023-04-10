@@ -3,7 +3,7 @@
 [Click here to download the presentation of this work](https://www.dropbox.com/scl/fi/cqm5mbc9h2pyxvbqnsq2i/DCGANAirfoilOptimization.pptx?dl=0&rlkey=h43ujaya819euvmjsdx56fk5z)
 
 ## Training and optimization
-Deep convolutional generative adversarial network (DCGAN) training learning to generate airfoils from a random vector input and the steepest descent optimization process  
+Deep convolutional generative adversarial network (DCGAN) training learns to generate airfoils from a random vector input and the steepest descent optimization process  
 <img src="Images/GAN_1.gif?raw=true&v=100" alt="your_alternative_text" width="50%" height="50%" loop="true" autoplay="true"><img src="Images/CLOptimization.gif" alt="your_alternative_text" width="49%" height="49%">
 
 ## Introduction
