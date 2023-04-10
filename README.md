@@ -20,8 +20,8 @@ Two different neural networks are trained
 (a) The first network maps the smooth airfoil shape to the coefficient of lift using the simulation training data  
 (b) The second network - a DCGAN which takes a random vector as the input and outputs a smooth airfoil (much similar to how Deepfake works to create new faces)
 
-The two neural networks are then combined to get a single network that maps the random vector to the coefficient of lift.
-A steepest gradient descent methodology is utilized to perform the optimization. During 
+The two neural networks are then combined to get a single network that maps the random vector to the coefficient of lift. Once we have a functional relation, a 
+steepest gradient descent methodology is utilized to perform the optimization. During 
 the iterations, at each step, the input random vector is updated, and passed through the trained generator network to obtain a 
 smooth airfoil, and that is passed through the network in (a) to obtain the coefficient of lift. 
 
