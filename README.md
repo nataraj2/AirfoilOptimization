@@ -30,7 +30,7 @@ smooth airfoil, and that is passed through the network in (a) to obtain the coef
 ## Optimization using steepest descent method
 The above combined network is a functional relation between the random vector input $\vec{q}$ and the coefficient of lift $C_L$. We can perform a 
 steepest descent optimization using the Newton's method with iterator index $k$ with different initial guesses $\vec{q_0}$.  
-$f(\vec{q}) = C_L$
+$f(\vec{q}) = C_L$  
 Newton iteration: $f(\vec{q}^{k+1}) = f(\vec{q_k}) + h\cfrac{\partial f}{\partial \vec{q}}$  
 where   
 $\cfrac{\partial f}{\partial \vec{q}} = {\Bigg\[\cfrac{\partial f}{\partial q_i}\Bigg\]}_{i=1,.....,N}$ and 
