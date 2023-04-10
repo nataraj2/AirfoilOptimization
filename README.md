@@ -37,6 +37,8 @@ $\cfrac{\partial f}{\partial \vec{q}} = {\Bigg\[\cfrac{\partial f}{\partial q_i}
 $\cfrac{\partial f}{\partial q_i} = \frac{f(q_i+\epsilon) - f(q_i-\epsilon)}{2\epsilon}$  
 Caveats: The value of $h$ is guessed by trial-and-error and this method does not guarantee convergence for all initial guesses of the random vector $\vec{q}^0$.
 
+## How to use the repo?
+
 The steps for the training and shape optimization procedure are below
 
 1. ```
