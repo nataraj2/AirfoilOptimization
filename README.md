@@ -26,6 +26,8 @@ the iterations, at each step, the input random vector is updated, and passed thr
 smooth airfoil, and that is passed through the network in (b) to obtain the coefficient of lift. 
 
 <img src="Images/NNCombination.png" alt="your_alternative_text" width="100%" height="100%">
+<em>Schematic showing the combined neural network: the generator network and the $C_L$ network</em>
+
 
 ## Optimization using steepest descent method
 The above combined network is a functional relation between the random vector input $\vec{q}$ and the coefficient of lift $C_L$. We can perform a 
