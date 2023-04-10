@@ -6,11 +6,16 @@
 
 <img src="Images/GAN_1.gif?raw=true&v=100" alt="your_alternative_text" width="50%" height="50%" loop="true" autoplay="true"><img src="Images/CLOptimization.gif" alt="your_alternative_text" width="49%" height="49%">
 
+## Introduction
+
 This repository contains the Python scripts required for the machine learning based shape optimization for two-dimensional airfoils 
 using Deep Convolutional Generative Adversarial Networks (DCGAN) to optimize the coefficient of lift. Note that this required 
-high-resolution training data from Computational Fluid Dynamics simulations of airfoils at high-speed flows. The training data consisted 
-to steady-state flow fields for a Mach 0.65 flow over 900 NACA 4-digit airfoils which have polynomial representations for the shape. Two different   
-neural networks are trained  
+high-resolution training data from computational fluid dynamics simulations of airfoils at high-speed flows. The training data consisted 
+to steady-state flow fields for a Mach 0.65 flow over 900 NACA 4-digit airfoils which have polynomial representations for the shape. 
+
+## Methodology
+
+Two different neural networks are trained  
  
 (a) The first network maps the smooth airfoil shape to the coefficient of lift using the simulation training data  
 (b) The second network - a DCGAN which takes a random vector as the input and outputs a smooth airfoil (much similar to how Deepfake works to create new faces)
@@ -18,7 +23,9 @@ neural networks are trained
 The two neural networks are then combined to get a single network that maps the random vector to the coefficient of lift.
 A steepest gradient descent methodology is utilized to perform the optimization. During 
 the iterations, at each step, the input random vector is updated, and passed through the trained generator network to obtain a 
-smooth airfoil, and that is passed through the network in (a) to obtain the coefficient of lift.  
+smooth airfoil, and that is passed through the network in (a) to obtain the coefficient of lift. 
+
+<img src="Images/NN_Combination.png" alt="your_alternative_text" width="50%" height="50%">
 
 The steps for the training and shape optimization procedure are below
 
